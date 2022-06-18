@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html,body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+    scroll-behavior: smooth;
+}
+
+/*--- Navbar --*/
+.navbar {
+    padding: .8rem;
+}
+.navbar li {
+    padding-right: 20px;
+}
+.nav-link {
+    font-size: 1.3em !important;
+    text-shadow: 1px 1px 2px darkgray, 0 0 1em lightgrey, 0 0 0.2em white;
+}
+
+.navbar img{
+    width: 90px;
+    height: 80px;
+    filter: drop-shadow(0 0 0.75rem darkgray);
+}
+
+/*--- Carousel --*/
+.carousel-inner img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+}
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h1 {
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+.btn-primary {
+    background-color: darkgrey;
+    border: 1px solid white;
+}
+.btn-primary:hover {
+    background-color: rgba(57, 56, 56, 0);
+    border: 1px solid white;
+}
+
+/*--- Jumbotron Home --*/
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+}
+.padding {
+    padding-bottom: 2rem;
+}
+
+.jumbotron p {
+    text-align: center;
+}
+
+/*--- Jumbotron About--*/
+.jumbotron-about {
+    border-radius: 0;
+    background: #3f3f3f;
+    padding-bottom: 0;
+    padding-top: 0.5rem;
+}
+.jumbotron-about p {
+    margin: 0;
+    text-align: center;
+    font-size: 2.4rem;
+    text-shadow: 1px 1px 2px white;
+    color: #d5d5d5;
+    text-transform: uppercase;
+}
+
+/*--- Welcome --*/
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+.welcome h1 {
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #454545;
+    text-shadow: 2px 2px 5px rgb(43, 43, 43);
+}
+
+/*--- Welcome Icons --*/
+.fa-tree {
+    margin: 1rem;
+    color: rgb(52, 52, 52);
+}
+.fa-car {
+    margin: 1rem;
+    color: rgb(52, 52, 52);
+}
+.fa-user {
+    margin: 1rem;
+    color: rgb(52, 52, 52);
+}
+
+/*--- Emoji --*/
+.fun {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 2rem;
+    background-color: #e7e7e7;
+    border-color: transparent;
+    border-radius: 12px;
+    color: black;
+}
+.fun:hover {
+    filter: drop-shadow(0 0 0.75rem #d7d7d7);
+}
+.gif {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/*--- Cards ---*/
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.card-img-about {
+    width: 668px;
+    height: 650px;
+    object-fit: cover;
+}
+/*-- Map --*/
+.map {
+    width:100%;
+    height:600px;
+    margin:0;
+    padding:0;
+}
+
+/*--- Connect --*/
+.social a {
+    font-size: 4.5em;
+    padding: 3rem;
+}
+.fa-facebook {
+    color: #3b5998;
+    filter: drop-shadow(0 0 0.75rem #3b5998);
+}
+.fa-instagram {
+    color: #C13584;
+    filter: drop-shadow(0 0 0.75rem #C13584);
+}
+.fa-reddit {
+    color: #FF5700;
+    filter: drop-shadow(0 0 0.75rem #FF5700);
+}
+.fa-facebook:hover {
+    color: #004ebe;
+}
+.fa-reddit:hover {
+    color: #cd4500;
+}
+.fa-instagram:hover {
+    color: #ae0061;
+}
+
+/*--- Horizontal Line --*/
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+/*--- Footer --*/
+footer {
+    background: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+footer a {
+    color: #d5d5d5;
+}
+footer h2 {
+    padding-top: 45px;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px white;
+}
+hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+footer img {
+    width: 115px;
+    height: 110px;
+    filter: drop-shadow(0 0 0.75rem rgb(22, 22, 22));
+}
+
+.no_dec {
+    text-decoration:none;
+}
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+    .social a {
+        font-size: 4em;
+        padding: 2rem;
+    }
+}
+@media (max-width: 768px) {
+    .carousel-caption {
+        top: 45%;
+    }
+    .carousel-caption h1 {
+        font-size: 350%;
+    }
+    .carousel-caption h3 {
+        font-size: 140%;
+        font-weight: 400;
+        padding-bottom: .2rem;
+    }
+    .carousel-caption btn {
+        font-size: 95%;
+        padding: 8px 14px;
+    }
+    .display-4 {
+        font-size: 200%;
+    }
+    .social a {
+        font-size: 2.5em;
+        padding: 1.2rem;
+    }
+}
+@media (max-width: 576px) {
+    .carousel-caption {
+        top: 40%;
+    }
+    .carousel-caption h1 {
+        font-size: 250%;
+    }
+    .carousel-caption h3 {
+        font-size: 110%;
+    }
+    .carousel-caption btn {
+        font-size: 90%;
+        padding: 4px 8px;
+    }
+    .carousel-indicators {
+        display: none;
+    }
+    .display-4 {
+        font-size: 160%;
+    }
+    .social a {
+        font-size: 2em;
+        padding: .7rem;
+    }
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+/*--- Form --*/
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 500px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #00000010;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form-group {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid rgba(128, 128, 128, 0.199);
+    margin-top: 5px;
+}
+.lets-connect h1{
+    padding-top: 11px;
+    text-align: center;
+    font-weight: bold;
+    color: #454545;
+    text-shadow: 1px 1px 5px rgb(200, 199, 199);
+}
+textarea {
+    resize: vertical;
+}
+button[type="submit"] {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease background-color;
+}
+button[type="submit"]:hover {
+    background-color: rgb(214, 226, 236);
+}
+#status {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 0;
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#status.success {
+    background-color: rgb(211, 250, 153);
+    animation: status 4s ease forwards;
+}
+#status.error {
+    background-color: rgb(250, 129, 92);
+    color: white;
+    animation: status 4s ease forwards;
+}
+@keyframes status {
+    0% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    90% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    100% {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+
+
+
+
+
+

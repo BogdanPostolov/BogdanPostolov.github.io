@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project-B</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="img/BP.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Maps -->
+<div class="row jumbotron-about ">
+    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10 col-xl-12">
+        <p class="lead">
+            Photography is the story I fail to put into words
+        </p>
+    </div>
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1589.6659146381705!2d18.15709202421168!3d49.83740529308358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDUwJzE3LjIiTiAxOMKwMDknMjIuNiJF!5e0!3m2!1sen!2sat!4v1607866940508!5m2!1sen!2sat"></iframe>
+</div>
+
+<section>
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-6">
+                <div class="container">
+                    <form action="https://formspree.io/f/myybnbng" method="POST" id="my-form">
+
+                        <div class="form-group">
+                            <label for="firstName"> 👤 First Name</label>
+                            <input type="text" id="firstName" name="firstName">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="lastName">👤 Last Name</label>
+                            <input type="text" id="lastName" name="lastName">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">📧 Email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="massage">💭 Massage</label>
+                            <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+                        </div>
+
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+                <div id="status"></div>
+            </div>
+            <div class="col-md-6">
+                <div class="lets-connect">
+                    <h1>Let's keep in touch 💬</h1>
+                    <hr>
+                    <p>
+                        If you're interested in a photo shoot or if you want to purchase some of my photos, feel free
+                        to contact me to discuss the details!
+                    </p>
+                    <br>
+                    <h2>My gear:</h2>
+                    <p>
+                        <li>Camera: Canon EOS 500D</li>
+                        <li>Portrait lens: Canon EFS 18-55mm [3.5 - 5.6]</li>
+                        <li>Zoom lens: Tamron 200mm [3.5 - 5.6]</li>
+                        <li>External flash: Canon Speedlite 420ex</li>
+                        <li>Tripod: Vanguard Espod CX 233AP</li>
+                        <li>UV,CPL,ND Filters: Polaroid</li>
+                        <li>Phone: Samsung Galaxy S10</li>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--- Footer -->
+<footer>
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <a href="index.html"><img src="img/BP.png"></a>
+                <hr class="light">
+                <p>📞 +420 770 695 537</p>
+                <p>📧 bogipostolov@protonmail.com</p>
+                <p>📍 Czech Republic, Ostrava</p>
+            </div>
+            <div class="col-md-8">
+                <!--- Connect -->
+                <div class="container-fluid padding">
+                    <div class="row text-center padding">
+                        <div class="col-12">
+                            <h2>Connect</h2>
+                            <hr class="light">
+                        </div>
+                        <div class="col-12 social padding">
+                            <a href="https://www.facebook.com/bogedoge21/"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.reddit.com/user/LiZaRD_MK"><i class="fab fa-reddit"></i></a>
+                            <a href="https://www.instagram.com/bogdanpostolov/"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <hr class="light-100">
+                <h5>© Bogdan Postolov</h5>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="script.js"></script>
+</html>
