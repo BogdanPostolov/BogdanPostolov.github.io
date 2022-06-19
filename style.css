@@ -80,7 +80,8 @@ html,body {
 .jumbotron-about p {
     margin: 0;
     text-align: center;
-    font-size: 2.4rem;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 1.7rem;
     text-shadow: 1px 1px 2px white;
     color: #d5d5d5;
     text-transform: uppercase;
@@ -142,9 +143,13 @@ html,body {
 /*--- Cards ---*/
 .card-img-top {
     width: 100%;
+    height: 830px;
+    object-fit: cover;
+}
+.card-img-hor {
+    width: 100%;
     height: 100%;
     object-fit: cover;
-
 }
 .card-img-about {
     width: 668px;
@@ -154,9 +159,7 @@ html,body {
 /*-- Map --*/
 .map {
     width:100%;
-    height:600px;
-    margin:0;
-    padding:0;
+    height:650px;
 }
 
 /*--- Connect --*/
@@ -176,6 +179,10 @@ html,body {
     color: #FF5700;
     filter: drop-shadow(0 0 0.75rem #FF5700);
 }
+.fa-linkedin {
+    color: #0077B5;
+    filter: drop-shadow(0 0 0.75rem #0077B5);
+}
 .fa-facebook:hover {
     color: #004ebe;
 }
@@ -184,6 +191,9 @@ html,body {
 }
 .fa-instagram:hover {
     color: #ae0061;
+}
+.fa-linkedin:hover{
+    color:#008cd8
 }
 
 /*--- Horizontal Line --*/
