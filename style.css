@@ -30,7 +30,7 @@ html,body {
 .carousel-inner img {
     width: 100%;
     height: 650px;
-    object-fit: cover;
+    object-fit: contain;
 }
 .carousel-caption {
     position: absolute;
@@ -149,7 +149,7 @@ html,body {
 .card-img-hor {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 .card-img-about {
     width: 668px;
